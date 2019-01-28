@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.holbertonschool.com/level2/holberton.css">
+    <title>HTML Canvas is Neat</title>
+  </head>
+  <body class="works_on_smartphone">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <header>
+      <div class="main-nav right">
+	<ul>
+	  <li><a href="/">Home</a></li>
+	  <li><a href="/tweets.html">tweets</a></li>
+	  <li><a href="/canvases.html">Multiple Canvases</a></li>
+	</ul>
+      </div>
+      <ul>
+	<li>
+	  <!--<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F92.243.25.63%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>-->
+	  <div class="fb-share-button" data-href="http://92.243.25.63/dragging.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+	</li>
+	<li>
+	  <!--<a target="_blank"
+	     class="twitter-share-button"
+	     href="https://twitter.com/intent/tweet?text=This%20site%20is%20el%20fuego!%20🔥🔥🔥%20http://92.243.25.63"
+	     data-size="large">
+	    Tweet
+	    </a>-->
+	  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="This site is el fuego! 🔥🔥🔥" data-url="http://92.243.25.63.dragging.html" data-via="benjamesian" data-hashtags="HTML5canvas" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js"></script>
+	</li>
+      </ul>
+      <h1><a href="/">HTML Canvas</a></h1>
+    </header>
+    <main>
+      <article>
+	<h2>A Draggable Box</h2>
+	<div class="article-body">
+	  <iframe title="Canvas Container" id="frame" sandbox="allow-scripts" width="350" height="250" src="canvas.html"></iframe>
+	  <!--<canvas id="canvas" width="300" height="200">fallback content</canvas>-->
+	  <div class="article-content">
+	    <p>
+	      <strong>Disclaimer:</strong> this web page is optimized for non-ios devices, if you aren't using ios or mobile Firefox you can likely enjoy all the content on this page. Hopefully the day will come when this disclaimer is no longer present.
+	    </p>
+	    <p>
+	      The green box is draggable, go ahead and click on it if you don't believe me! Click the orangish box to toggle the visibility of the green box. With HTML Canvas you can bring any 2D scene you can imagine to life.
+	    </p>
+	  </div>
+	</div>
+      </article>
+      <aside>
+	<h3>Leave a Comment!</h3>
+	<p>
+	  Did you enjoy dragging the box? Are you concerned about the interactions you have on this page? I'd love to hear all about it! Please leave a comment 🙃.
+	</p>
+	<div id="disqus_thread"></div>
+	<script>
+	  /**
+	  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	  /*
+	  var disqus_config = function () {
+	  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+	  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	  };
+	  */
+	  (function() { // DON'T EDIT BELOW THIS LINE
+	  var d = document, s = d.createElement('script');
+	  s.src = 'https://http-92-243-25-63.disqus.com/embed.js';
+	  s.setAttribute('data-timestamp', +new Date());
+	  (d.head || d.body).appendChild(s);
+	  })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	                            
+      </aside>
+    </main>
+    <footer>
+      <!--<p>Some Footer Text</p>-->
+      <p>
+	Made by <a href="https://twitter.com/benjamesian" target="_blank">James Cook</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
+      </p>
+    </footer>
+    <!--<script src="js/index.js"></script>
+    <script>
+      var app = new Application({type: 'draggable-box', animation: false});
+      app.start();
+    </script>-->
+  </body>
+</html>
+
