@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    touch-action: none;
+}
+
+canvas {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+/* from attempt to fix page being non-interactive on safari
+.start_screen {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}*/
+
+.centered {
+    margin: auto;
+}
