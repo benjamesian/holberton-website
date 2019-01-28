@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/canvas.css">
+    <title>HTML Canvas is Neat</title>
+  </head>
+  <body>
+    <!-- from attempt to make page work interactively in safari
+	<div id="start" class="start_screen">
+      <button
+	 type="button"
+	 class="centered"
+	 id="start-btn">
+	 <!-onclick="
+		  //let canvas = document.createElement('canvas');
+		  //console.log(canvas);
+		  //canvas.width = '300';
+		  //canvas.height = '200';
+		  //console.log(canvas);
+		  //var app = new Application({type: 'draggable-box', animation: false, canvas: canvas}); 
+		  //app.start();
+		  //document.body.onload = function(event) {document.body.insertBefore(canvas, document.body.getElementById('start'));};
+		  //document.getElementById('start').style.display = 'none'; 
+		  //document.getElementById('canvas').style.display='block';
+		  ">->
+	START
+      </button>
+    </div>-->
+    <canvas id="canvas" width="300" height="200">
+      No Canvas Support download a better browser if possible
+    </canvas>
+    <script src="js/index.js"></script>
+    <script>
+      var app = new Application({type: 'draggable-box', animation: false});
+      app.start();
+    </script>
+  </body>
+</html>
