@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: rgba(99, 150, 87, 0.4);
+    display: flex;
+    padding: 3px;
+}
+
+h1 {
+    margin: 0px;
+    text-shadow: 14px 5px 20px black;
+}
+
+.main-nav {
+    float: right;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+.article-body {
+    padding: 10px;
+}
+
+.article-content {
+    /*width: 300px;*/
+}
+
+.logo {
+    width: 50%;
+}
+
+.holberton {
+    float: left;
+}
+
+.html5 {
+    float: right;
+}
+
+.tweets {
+    list-style: none;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+canvas {
+    border: 1px solid black !important; /* no time to figure out hide in iframe :P */
+    float: left;
+    margin-right: 10px;
+}
+
+canvas:hover {
+    opacity: 0.5;
+}
+
+iframe {
+    float: left;
+}
+
+#canvas2 {
+    float: right;
+}
+
+footer {
+    background: rgba(33, 33, 33, 0.7);
+    padding: 3px;
+}
